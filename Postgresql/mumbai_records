@@ -1,0 +1,6 @@
+-- Search first 5 records where the city is Mumbai or Bangalore.
+select * from employee where address='mumbai' or address='banglore' Limit 5;
+
+
+-- -- Skipping the first 5 records
+-- SELECT * FROM employee where address='mumbai' or address='banglore' LIMIT 10 Offset 5;

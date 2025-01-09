@@ -1,0 +1,3 @@
+-- Creating a table in employee which contains column id, username, address 
+
+Create Table Employee(Ids int,Username varchar(100),Address varchar(100))

@@ -1,0 +1,2 @@
+-- Select unique records from a table.
+SELECT DISTINCT username from employee
