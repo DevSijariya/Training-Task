@@ -1,0 +1,4 @@
+-- Alter Table employee add Datecol DATE;
+-- Adding random dates in the date column in the existing table
+Update employee set Datecol=(NOW() - (random() * (NOW()+'90 days' - NOW())) );
+select * from employee;

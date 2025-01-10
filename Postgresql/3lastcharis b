@@ -1,0 +1,2 @@
+-- Search records where the third last character of the city is ‘b’.
+select * from employee where address like '%b__'

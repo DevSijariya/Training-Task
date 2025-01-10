@@ -1,0 +1,2 @@
+ -- Search records where the city contains the string ‘under’.
+ select * from employee where address like '%under%'

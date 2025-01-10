@@ -1,0 +1,2 @@
+-- Search the records where the second Character of the city is ‘o’.
+select * from employee where address like '_o%'

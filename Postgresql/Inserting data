@@ -1,0 +1,5 @@
+--  Inserting the values in the employee table
+Insert Into employee(ids,username,address)
+Values
+(1,'sanskar','Datia'),(2,'aryan','Datia'),(3,'nitin','jaipur'),
+(4,'astik','abad'),(5,'aman','cdabad')

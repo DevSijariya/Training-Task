@@ -1,0 +1,8 @@
+-- Insert a few records where the city is not entered. 
+
+-- insert into employee(ids,username)
+-- values(25,'dev'),
+-- (26,'yash');
+
+-- Search all the records where the city field is blank.
+SELECT * FROM employee WHERE address IS NULL
