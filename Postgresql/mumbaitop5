@@ -1,0 +1,2 @@
+-- Search first 5 records where city is Mumbai
+SELECT * FROM employee where address='mumbai' LIMIT 5

@@ -1,0 +1,3 @@
+-- select query with multiple conditions using ‘AND’ and ‘OR’.
+select * from employee where username = 'sanskar' And address = 'Datia' Or username = 'nitin' And ids=3
+Or ids=8 and address='pune'
